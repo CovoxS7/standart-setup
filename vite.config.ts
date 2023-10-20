@@ -9,6 +9,7 @@ export default defineConfig({
     emptyOutDir: true,
     outDir: "../dist",
   },
+  publicDir: "assets",
   resolve: {
     alias: {
       "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"),
